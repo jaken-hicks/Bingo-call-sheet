@@ -57,7 +57,7 @@ body {
   border: 2.5px solid #000000;
   outline-color: #00A8EF;
   cursor: pointer;
-  transition-duration: 0.3s;
+  transition-duration: 1.0s;
 }
 .button:hover, .button.red {background-color: #FF0000;}
 
