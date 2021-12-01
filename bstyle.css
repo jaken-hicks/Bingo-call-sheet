@@ -31,8 +31,8 @@ body {
 
 .grid-container {
   display: grid;
-  max-width: 2000px;
-  height: 504px;
+  max-width: 90%;
+  height: 55.15%;
   overflow: auto;
   grid-template-columns: repeat(16,1fr);
   align-items: center;
@@ -82,7 +82,7 @@ h1 {
   font-weight: 100;
   position: absolute;
   top: 80%;
-  left: 250px;
+  left: 12.5%;
   align-items: center;
   align-content: center;
 }
