@@ -36,6 +36,7 @@ body {
   overflow: auto;
   grid-template-columns: repeat(16,1fr);
   align-items: center;
+  align-content: start;
   grid-gap: none;
   
   position: absolute;
