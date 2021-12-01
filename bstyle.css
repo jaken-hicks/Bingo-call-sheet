@@ -13,6 +13,12 @@ body {
   padding: 0;
 }
 
+@media screen and (max-width: 1024px){
+    img.bg {
+        left: 50%;
+        margin-left: -512px; }
+}
+
 .wrapper{
   position: absolute;
   z-index: -2;
