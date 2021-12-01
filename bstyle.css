@@ -27,7 +27,7 @@ body {
   max-width: 2000px;
   height: 504px;
   overflow: auto;
-  grid-template-columns: repeat(15,1fr);
+  grid-template-columns: repeat(16,1fr);
   align-items: center;
   grid-gap: 0px;
   border: 2px solid black;
@@ -35,21 +35,6 @@ body {
   top: 15%;
   left: 10%
 }
-
-.grid-bingo {
-  display: grid;
-  max-width: 105px;
-  height: 504px;
-  overflow: auto;
-  grid-template-columns: repeat(1,1fr);
-  align-items: center;
-  grid-gap: 0px;
-  border: 2px solid black;
-  position: absolute;
-  top: 15%;
-  left: 67px;
-}
-
 
 .button {
   display: flex;
@@ -62,7 +47,7 @@ body {
   border: 2px solid #000000;
   outline-color: #00A8EF;
   cursor: pointer;
-  /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+  transition-duration: 0.3s;
 }
 .button:hover, .button.red {background-color: #FF0000;}
 
@@ -71,6 +56,8 @@ body {
   justify-content: center;
   align-items: center;
   background: red;
+  color: white;
+  text-shadow: 2px 3px black;
   width: 100px;
   height: 100px;
   font-size: 3rem;
